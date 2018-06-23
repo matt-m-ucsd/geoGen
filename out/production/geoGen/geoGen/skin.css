@@ -1,0 +1,65 @@
+.close-button:hover {
+    -fx-border-color: white;
+    -fx-border-size: 1px;
+    -fx-border-style: solid;
+}
+
+.range-slider .axis {
+    -fx-tick-label-fill: white;
+    -fx-tick-label-font-size: 1.0em;
+}
+
+.range-slider .low-thumb,
+.range-slider .high-thumb {
+    -fx-background-color: #555555;
+}
+
+.range-slider .range-bar {
+    -fx-background-color: #888888;
+}
+
+#custom-button {
+    -fx-font: 10pt "Helvetica";
+    -fx-background-color: #373737;
+    -fx-text-fill: #c5c5c5;
+}
+
+#adv-button {
+    -fx-font: 10pt "Helvetica";
+    -fx-background-color: #212121;
+    -fx-text-fill: #b1b1b1;
+}
+
+#list-header {
+    -fx-font: 12pt "Helvetica";
+    -fx-text-fill: #c5c5c5;
+}
+
+#small-text {
+    -fx-font: 9pt "Helvetica";
+    -fx-text-fill: #c5c5c5;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-border-width: 2px;
+    -fx-border-color: #212121;
+    -fx-padding: 4px;
+    -fx-background-insets: 0;
+}
+
+.radio-button .radio,
+.radio-button .radio:selected,
+.radio-button -radio:armed,
+.radio-button -radio:determinate,
+.radio-button -radio:indeterminate {
+    -fx-border-width: null;
+    -fx-border-color: null;
+    -fx-border-radius: null;
+    -fx-background-color: null;
+    -fx-background-insets: 0;
+}
+
+#toolbar {
+
+}
